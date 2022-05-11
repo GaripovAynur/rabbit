@@ -23,7 +23,7 @@ rabbitmqctl set_permissions [-p vhost] {user} {conf} {write} {read}
 # Например, для пользователя user всем хостам дать все разрешения
 
 rabbitmqctl set_permissions -p / user "/*" ".*" ".*
-# или
+"# или
 rabbitmqctl set_permissions -p /myvhost tonyg "^tonyg-.*" ".*" ".*"
 # Эта команда инструктирует брокера RabbitMQ предоставить пользователю с именем tonyg доступ к виртуальному хосту с именем /myvhost, с разрешениями конфигурации для всех ресурсов, чьи имена начинаются с «tonyg-», а также разрешения на запись и чтение для всех ресурсов.
 
