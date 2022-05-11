@@ -41,7 +41,7 @@ vhost - Имя виртуального хоста, для которого мо
 rabbitmqctl list_user_permissions {username} # Просмотр разрешений для пользователя.
 
 ####
-Сброс всех очередей в rabbitmq
+#Сброс всех очередей в rabbitmq
 rabbitmqctl stop_app
 rabbitmqctl reset
 rabbitmqctl start_app
