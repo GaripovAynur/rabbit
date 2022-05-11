@@ -45,3 +45,6 @@ rabbitmqctl list_user_permissions {username} # Просмотр разрешен
 rabbitmqctl stop_app
 rabbitmqctl reset
 rabbitmqctl start_app
+
+####
+rabbitmqctl cluster_status # Состояние кластера
