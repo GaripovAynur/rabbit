@@ -48,3 +48,5 @@ rabbitmqctl start_app
 
 ####
 rabbitmqctl cluster_status # Состояние кластера
+
+rabbitmqctl forget_cluster_node rabbit@dc1-trmq-node3 # Удалить из кластера
